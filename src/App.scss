@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*login page style*/
+.login-page {
+    background-color: #717775;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .box {
+    width: 1000px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+}
+
+.login-page .box .login-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .box .login-form {
+    padding: 30px 50px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.login-page .box .login-form .brand {
+    text-align: center;
+    width: 150px;
+    margin: 0 auto 20px auto;
+}
+
+
+/*layout style*/
+.main-layout {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 100px;
+}
+
+.main-layout .main-layout-header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-layout-header .brand {
+    width: 100px;
+}
+
+.main-layout-content .book-list .book-status {
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    border: none;
+    right: 0;
+    top: 0;
+    color: white;
+}
+
+.main-layout-content .book-list .book-status-new {
+    background-color: darkseagreen;
+}
+
+.main-layout-content .book-list .book-status-reading {
+    background-color: orange;
+}
+
+.main-layout-content .book-list .book-status-finish {
+    background-color: red;
+}
